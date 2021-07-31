@@ -1,0 +1,49 @@
+body{
+    background-color: #CBF1F5 ;
+}
+.main
+{
+    background-color: #E3FDFD;
+    border:0.1px solid black;
+    text-align: left;
+    width: 70%;
+    margin: 0px auto;
+}
+#designation,.contact{
+    color: #364F6B;
+}
+.intro{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content{
+    margin: 0 auto 0 30px;
+}
+table,tr,thead,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: 0 5px;
+    text-align: left;
+    color: #252A34;
+}
+dt{
+    margin: 8px auto;
+}
+.description{
+    margin-left: 12px;;
+}
+.langs{
+    width: 80%;
+    text-align: left;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content :space-between;
+}
+.int{
+    width: 70%;
+    text-align: left;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content :space-between;
+}
